@@ -4,6 +4,10 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
 <title>Assembly Calculator Suite</title>
+<!-- Favicon Standar & Favicon Khusus HP -->
+<link rel="icon" type="image/png" href="97799.png">
+<link rel="apple-touch-icon" href="97799.png">
+
 <!-- Pustaka html2canvas untuk ekspor gambar -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
 <style>
@@ -320,7 +324,7 @@ button.danger{background:#ef4444;color:white;padding:6px 10px;font-size:11px}
 <div class="wrap">
 <div class="header-flex">
   <div>
-    <h1>🏭 Assembly Calculator Suite</h1>
+    <h1>Assembly Calculator Suite</h1>
     <div class="sub">Multi-process line • SPA, Time Study & Delivery Simulation</div>
   </div>
   <button class="alt" onclick="toggleTheme()" id="themeBtn" style="padding:7px 11px;">🌙 Mode</button>
@@ -340,7 +344,7 @@ button.danger{background:#ef4444;color:white;padding:6px 10px;font-size:11px}
       <h2>🔄 Penyesuaian Target Durasi & Operator (Pergantian SPA / WIP)</h2>
     </div>
     <div class="grid" style="margin-bottom:10px;">
-      <div class="field"><label>Nama Produk / SPA</label><input id="spaProduct" placeholder="Misal: Model A8602"></div>
+      <div class="field"><label>Nama Produk / SPA</label><input id="spaProduct" placeholder="8603 OMG"></div>
       <div class="field"><label>Target Standard 8 Jam (pcs)</label><input id="spaStdTarget" type="number" placeholder="0" oninput="calcSPA()"></div>
       <div class="field"><label>Jam Kerja Standard (Jam)</label><input id="spaStdHours" type="number" value="8" step="0.1" oninput="calcSPA()"></div>
     </div>
